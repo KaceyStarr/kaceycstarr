@@ -73,3 +73,8 @@ body {
     margin: 0;
     padding: 20px; /* Adds some space around the content */
 }
+
+
+#active {
+    font-size: 200pxs;
+}
