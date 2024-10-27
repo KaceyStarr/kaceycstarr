@@ -9,6 +9,13 @@
     max-width: 800px; /* Keep a max width for readability */
 }
 
+header {
+    display: flex;
+    justify-content: center; /* Center all items in the header */
+    align-items: center;
+    padding: 20px 0;
+}
+
 .education h1 {
     font-size: 32px;
     margin-bottom: 20px;
