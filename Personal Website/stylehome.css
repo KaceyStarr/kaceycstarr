@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    background-color: #f5f5f5; /* Light grey background */
+    background-color: #D9DDDC; /* Pearl River */
     color: #333; /* Darker text color for contrast */
     margin: 0;
     padding: 20px;
@@ -58,7 +58,6 @@ nav a.active {
     padding-bottom: 5px; /* Space between text and underline */
     margin-bottom: 20px; /* Adds space below the heading */
 }
-
 
 .home-content h3 {
     font-size: 24px; /* Slightly larger */

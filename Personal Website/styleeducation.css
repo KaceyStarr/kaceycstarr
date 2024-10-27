@@ -1,4 +1,11 @@
 /* Education section styling */
+body {
+    background-color: #D9DDDC; /* Pearl River */
+    color: #333; /* Darker text color for contrast */
+    margin: 0;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif; /* Set a base font */
+}
 .education {
     margin: 0; /* Remove margin to align to the left */
     padding: 20px;
