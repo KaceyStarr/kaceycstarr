@@ -23,6 +23,7 @@ header {
     left: 0;
     right: 0;
     height: 20px;
+    box-shadow: 0 0 25px 0 black;
 }
 
 /* Adding more space between the nav bar items */
@@ -127,3 +128,19 @@ header nav a {
     transform: scale(1.1); /* Slightly enlarges the icon on hover */
 }
 
+
+
+
+body, html {
+    height: 100%; /* Make sure the body and html are full height */
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+}
+
+.container {
+    text-align: center;
+    max-width: 800px; /* Set a max width if desired */
+    padding: 20px;    /* Add some padding for spacing */
+}

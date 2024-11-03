@@ -23,6 +23,7 @@ header {
     left: 0;
     right: 0;
     height: 20px;
+    box-shadow: 0 0 25px 0 black;
 }
 
 /* Adding more space between the nav bar items */
@@ -57,15 +58,3 @@ header nav a {
     color: #333;
 }
 
-/* Remove left border */
-.education p:not(:first-of-type) {
-    padding-left: 0; /* Remove padding for a clean look */
-    margin-left: 0; /* Remove left margin */
-}
-.divider {
-    border: none; /* Remove default border */
-    height: 1px; /* Set height of the line */
-    background-color: #ccc; /* Set color of the line */
-    margin: 20px 0; /* Add vertical spacing around the line */
-    width: 100%; /* Full width */
-}
