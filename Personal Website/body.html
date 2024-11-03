@@ -5,20 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kacey C. Starr</title>
     <link rel="stylesheet" href="stylehome.css">
-    <style>
-        /* Giving the widget design */
-        #traffic-widget {
-            position: fixed;
-            bottom: 10px;
-            right: 10px;
-            background-color: rgba(0, 0, 0, 0.7);
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-            z-index: 1000;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -59,26 +45,3 @@
         </div>
     </section>
 
-    <!-- Visitor Traffic Widget -->
-    <div id="traffic-widget">Visitors: 0</div>
-
-    <script>
-        // Check if 'visitors' is already in local storage
-        let visitors = localStorage.getItem('visitors');
-        
-        // If it doesn't exist, initialize it to 0
-        if (!visitors) {
-            visitors = 0;
-        }
-
-        // Increment visitors count
-        visitors++;
-
-        // Store updated visitors count in local storage
-        localStorage.setItem('visitors', visitors);
-
-        // Update the widget display
-        document.getElementById('traffic-widget').innerText = 'Visitors: ' + visitors;
-    </script>
-</body>
-</html>
