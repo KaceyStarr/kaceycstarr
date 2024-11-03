@@ -1,26 +1,36 @@
-/* Education section styling */
+/* General font for the website */
 body {
     background-color: #D9DDDC; /* Pearl River */
     color: #333; /* Darker text color for contrast */
     margin: 0;
     padding: 20px;
     font-family: 'Roboto', sans-serif; /* Set a base font */
-}
-.education {
-    margin: 0; /* Remove margin to align to the left */
-    padding: 20px;
-    background-color: white; /* Keep background white */
-    border-radius: 0; /* Remove border radius for a straight edge */
-    box-shadow: none; /* Remove shadow for a flat appearance */
-    width: 100%; /* Ensure it takes full width */
-    max-width: 800px; /* Keep a max width for readability */
+    margin-top: 80px; /* Making the nav-bar spaced out*/
 }
 
+
+/* Header Styles */
 header {
     display: flex;
     justify-content: center; /* Center all items in the header */
     align-items: center;
     padding: 20px 0;
+
+    /*Creating the NavBar background */
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+}
+
+/* Adding more space between the nav bar items */
+header nav a {
+    margin: 0 15px; /* Adds space between nav links */
+    text-decoration: none;
+    color: #333; /* Match text color */
+    font-weight: 500; /* Adjust font weight if needed */
 }
 
 .education h1 {
