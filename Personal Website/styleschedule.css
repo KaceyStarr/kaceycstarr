@@ -30,6 +30,13 @@ header nav a {
     font-weight: 500; /* Adjust font weight if needed */
 }
 
+
+/* Centering the text */
+h1{
+    text-align: center
+}
+
 h2{
     font-size: 12px;
+    text-align: center;
 }
