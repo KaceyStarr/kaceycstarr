@@ -22,8 +22,15 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 80px;
+    height: 20px;
+}
 
+/* Adding more space between the nav bar items */
+header nav a {
+    margin: 0 15px; /* Adds space between nav links */
+    text-decoration: none;
+    color: #333; /* Match text color */
+    font-weight: 500; /* Adjust font weight if needed */
 }
 
 .logo {
