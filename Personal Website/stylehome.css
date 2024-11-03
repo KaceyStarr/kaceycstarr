@@ -1,11 +1,13 @@
-/* General Styles */
+/* General font for the website */
 body {
     background-color: #D9DDDC; /* Pearl River */
     color: #333; /* Darker text color for contrast */
     margin: 0;
     padding: 20px;
     font-family: 'Roboto', sans-serif; /* Set a base font */
+    margin-top: 80px; /* Making the nav-bar spaced out*/
 }
+
 
 /* Header Styles */
 header {
@@ -13,6 +15,15 @@ header {
     justify-content: center; /* Center all items in the header */
     align-items: center;
     padding: 20px 0;
+
+    /*Creating the NavBar background */
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+
 }
 
 .logo {
